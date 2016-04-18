@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Sanath Samarasinghe <sanath@ceylonit.com>
+MAINTAINER SERrex Labs <os@serrexlabs.com>
 
 RUN apt-get --fix-missing update
 RUN apt-get -y install apache2 php5 git curl php5-mcrypt php5-json php5-mysql libapache2-mod-php5
